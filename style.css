@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Bai+Jamjuree&subset=latin-ext");
+
+.blokas {
+  width: 800px;
+  background: #ffffff;
+  margin: auto;
+  opacity: 0.8;
+  box-sizing: bordex-box;
+  padding: 20px;
+}
+body {
+  margin: 0;
+  background-image: url(fonas.jpg);
+}
+.atidarytas {
+  padding: 10px;
+  background: Grey;
+}
+.meniu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #000000;
+}
+.meniu a:hover {
+  background: #123456;
+}
+.item:first-child {
+  border-left: 1px solid #000000;
+}
+.meniu {
+  text-align: center;
+  opacity: 1;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+.item {
+  float: left;
+  border-right: 1px solid #000000;
+}
+p {
+  margin-bottom: 30px;
+}
+.right {
+  float: right;
+  margin-left: 10%;
+}
+
+.left {
+  float: left;
+  margin-right: 10%;
+}
+.valyti {
+  clear: both;
+}
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.lyg1 {
+  text-align: justify;
+}
+.lyg2 {
+  text-align: left;
+  text-indent: 30px;
+}
+.stulpelis {
+  width: 40%;
+}
+.sriftas {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Bai Jamjuree", Times, serif;
+}
+
+.stulpelis {
+  width: 16%;
+  float: left;
+  text-align: justify;
+  padding-left: 5%;
+}
+
+.stulpelis:first-child {
+  padding-left: 0%;
+}
+
+.stulpelis4 {
+  width: 21.25%;
+  float: left;
+  text-align: justify;
+  padding-left: 5%;
+}
+.stulpelis4:first-child {
+  padding-left: 0%;
+}
+
+@media only screen and (max-width: 799px) {
+  .blokas {
+    width: 80%;
+    margin: 0 10%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .stulpelis5,
+  .stulpelis4 {
+    width: 45%;
+    padding-left: 10%;
+  }
+  .stulpelis5:nth-child(odd),
+  .stulpelis4:nth-child(odd) {
+    clear: both;
+    padding-left: 0;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .stulpelis5,
+  .stulpelis4 {
+    width: 100%;
+    padding-left: 0;
+  }
+  .left {
+    display: none;
+  }
+}
+.item {
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+}
+.item:first-child {
+  border-top: 0px;
+}
+.atidarytas {
+  padding: 9px 0;
+}
